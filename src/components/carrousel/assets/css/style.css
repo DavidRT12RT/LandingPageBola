@@ -1,0 +1,36 @@
+/* Carrousel Section css */
+
+.academyCard{
+    position:relative; 
+
+    border-radius: 10px;
+}
+
+.academyCard .academyImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+   border-radius: 10px;
+}
+
+.academyCard .content{
+    background-color: rgba(0, 0, 0, 0.4); 
+
+    position:absolute;
+
+    width: 100%;
+    height: 100%;
+    padding:20px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
